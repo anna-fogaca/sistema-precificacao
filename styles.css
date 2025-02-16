@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fundo mais claro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centraliza o conteúdo na tela */
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Aumentei a largura máxima para acomodar mais colunas */
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Título mais escuro */
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Tamanho maior */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333; /* color5 - Texto escuro */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Borda mais clara */
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333333; /* color5 - Texto escuro */
+    background-color: #f9f9f9; /* Fundo claro para os inputs */
+    box-sizing: border-box; /* Garante que o padding não ultrapasse a largura */
+}
+
+input:focus {
+    border-color: #007bff; /* Borda azul ao focar */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra suave ao focar */
+}
+
+button {
+    display: block;
+    width: 200px; /* Largura fixa */
+    padding: 12px;
+    background-color: #007bff; /* Botão azul */
+    color: #ffffff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Centraliza o botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Botão mais escuro ao passar o mouse */
+}
+
+#baixarOrcamento {
+    background-color: #28a745; /* Botão verde */
+    margin-top: 10px;
+}
+
+#baixarOrcamento:hover {
+    background-color: #218838; /* Botão verde mais escuro ao passar o mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre as células */
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Fundo branco para a tabela */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px; /* Reduzi o padding das células */
+    text-align: center;
+    border: 1px solid #cccccc; /* Bordas mais claras */
+    font-size: 0.9em; /* Reduzi o tamanho da fonte */
+}
+
+th {
+    background-color: #007bff; /* Cabeçalho azul */
+    color: #ffffff; /* Texto branco */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo alternado para linhas */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Fundo cinza claro ao passar o mouse */
+}
